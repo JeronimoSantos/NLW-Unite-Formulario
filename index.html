@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NLW-Unite Formulario</title>
 
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
-    <script>
-      dayjs.extend(window.dayjs_plugin_relativeTime)
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
-    <script>
-      dayjs.locale('pt-br')
-    </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+  <script>
+    dayjs.extend(window.dayjs_plugin_relativeTime)
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+  <script>
+    dayjs.locale('pt-br')
+  </script>
 
-    <script type="text/javascript" src="index.js" defer=""></script>
-    <link rel="stylesheet" href="index.css">
-  </head>
+  <script type="text/javascript" src="index.js" defer=""></script>
+  <link rel="stylesheet" href="index.css">
+</head>
 
-  <body>
+<body>
 
-    <div class="conteiner">
+  <div class="conteiner">
 
-      <header>
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="32" height="32" rx="7.11111" fill="#F48F56"></rect>
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0682 15.0583V12.7586L5.71097 15.12H5.69678V17.482H5.71097L12.0682 19.8462V17.5415L8.80823 16.2975L12.0682 15.0583Z" fill="#00292E"></path>
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6328 18.0617L22.89 16.8248L19.6328 15.5878V13.2881L25.9829 15.6522H25.9998V18.0164H25.9829L19.6328 20.3686V18.0617ZM16.9057 10.0309L13.1708 22.0165H15.387L19.1219 10.0309H16.9057Z" fill="#00292E"></path>
-        </svg>
-      </header>
+    <header>
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="7.11111" fill="#F48F56"></rect>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0682 15.0583V12.7586L5.71097 15.12H5.69678V17.482H5.71097L12.0682 19.8462V17.5415L8.80823 16.2975L12.0682 15.0583Z" fill="#00292E"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6328 18.0617L22.89 16.8248L19.6328 15.5878V13.2881L25.9829 15.6522H25.9998V18.0164H25.9829L19.6328 20.3686V18.0617ZM16.9057 10.0309L13.1708 22.0165H15.387L19.1219 10.0309H16.9057Z" fill="#00292E"></path>
+      </svg>
+    </header>
 
-      <form onsubmit="adicionarParticipante(event)">
-        <fieldset>
-          <legend>Inscrição</legend>
+    <form onsubmit="adicionarParticipante(event)">
+      <fieldset>
+        <legend>Inscrição</legend>
 
-          <div>
+        <div>
             <div class="input-wrapper">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_24_685)">
@@ -78,6 +81,7 @@
         <h2>Participantes</h2>
         <div>
           <table width="100%">
+
             <thead style="text-align: left">
               <tr>
                 <th>Participante</th>
@@ -85,6 +89,7 @@
                 <th>Data do check-in</th>
               </tr>
             </thead>
+
             <tbody>
               <tr>
                 <td>
@@ -100,11 +105,20 @@
                 <td>Há 20 minutos</td>
               </tr>
             </tbody>
+
           </table>
         </div>
       </section>
 
     </div>
-  </body>
-
+  <footer class="rodape">
+    <h2>Desenvolvido por Jerônimo S.Rodrigues.</h2>
+    <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/jer%C3%B4nimo-s-rodrigues-dev/">
+      <img src="./assets/linkedin.png"></a>
+    <a target="_blank" title="GitHub" href="https://github.com/JeronimoSantos">
+      <img src="./assets/github.png"></a>
+    <a target="_blank" title="Instagram" href="https://www.instagram.com/jeronimo_santos_oficial/">
+      <img src="./assets/instagram.png"></a>
+  </footer>
+</body>
 </html>

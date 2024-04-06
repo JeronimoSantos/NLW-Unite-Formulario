@@ -129,3 +129,9 @@ tbody td button {
 tbody td button:hover {
   text-decoration: underline;
 }
+
+.rodape {
+  display: flex;
+  padding: 5% 15%;
+  gap: 80px;
+}
