@@ -83,6 +83,7 @@ fieldset button:hover {
 .lista-participantes tr:hover td {
   background-color: #45484b;
   cursor: pointer;
+}
 
 .lista-participantes > div {
   border: var(--border);
