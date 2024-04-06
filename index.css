@@ -137,6 +137,8 @@ tbody td button:hover {
 
 .rodape {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 5% 15%;
   gap: 80px;
 }
