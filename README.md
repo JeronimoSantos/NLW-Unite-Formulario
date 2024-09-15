@@ -6,3 +6,6 @@
 - JavaScript
 - GitHub
 - Day.js
+
+## Imagem do Projeto:
+<img wight=100% src=https://github.com/user-attachments/assets/a427d0ab-0189-4427-b37d-9c53359124da/>
